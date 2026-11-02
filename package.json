@@ -1,0 +1,19 @@
+{
+  "name": "design-patterns-typescript",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo:factory": "tsx 01-factory-method/src/main.ts",
+    "demo:adapter": "tsx 02-adapter/src/main.ts",
+    "demo:observer": "tsx 03-observer/src/main.ts",
+    "demo:observer:before": "tsx 03-observer/src/before/InventoryManager.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vitest": "^5.1.0"
+  }
+}
